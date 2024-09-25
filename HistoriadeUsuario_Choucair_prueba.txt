@@ -1,0 +1,18 @@
+
+Historia de Usuario:
+
+Yo como administrador del proceso de pruebas de la aplicación de recursos humanos, quiero automatizar el proceso de agregar un nuevo recluta en el sistema de OrangeHRM, para agilizar la validación del flujo de los usuarios registrados en la plataforma.
+
+Criterios de aceptación:
+
+    Criterio 1:
+
+Dado que el usuario accede a la página de inicio de sesión en "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+Cuando ingreso el nombre de usuario "Admin" y la contraseña "admin123",
+Entonces debo poder ingresar correctamente al sistema.
+
+    Criterio 2:
+
+Dado el usuario ingresa a la sección "Recruitment",
+Cuando ingresa la información del nuevo recluta con los datos requeridos guardando los datos
+Entonces al verificar en el listado de contratados está exitosamente en la lista.
